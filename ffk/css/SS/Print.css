@@ -1,0 +1,108 @@
+.a4page{
+    width: 21 cm;
+    height: 29.7 cm;
+    background: #eee;
+    border: 1cm solid #eee;
+}
+
+
+/* Defaults */
+.SGallery.SGallery-FancyBox {
+    float: left ;
+    font-size:12px;
+    width:auto;
+    margin:0 auto;
+}
+
+
+.SGallery.SGallery-FancyBox ul.images ,
+.SGallery.SGallery-FancyBox ul.images li ,
+.SGallery.SGallery-FancyBox ul.images ol {
+    list-style:none;
+    list-style-type:none;
+    float:left;
+
+}
+.SGallery.SGallery-FancyBox ul.images {
+    padding-bottom:20px;
+}
+.SGallery.SGallery-FancyBox ul.images li {
+    margin:2px;	
+}
+.SGallery.SGallery-FancyBox ul.images li a img {
+    float:left;
+    border: solid 1px #ccc;
+    padding: 5px;
+    background: #fff ;
+}
+.SGallery.SGallery-FancyBox ul.images li a:Hover img {
+    border: solid 1px #ccc;
+    background: #0099DD ;
+}
+
+
+.SGallery.SGallery-FancyBox .description {
+    padding : 5px;
+}
+
+.SGallery.SGallery-FancyBox h1,
+.SGallery.SGallery-FancyBox h2,
+.SGallery.SGallery-FancyBox h3,
+.SGallery.SGallery-FancyBox h4,
+.SGallery.SGallery-FancyBox h5,
+.SGallery.SGallery-FancyBox h6 {
+}
+
+.SGallery.SGallery-FancyBox p {
+}
+
+/* List styling  */
+.SGallery li,
+.SGallery ul,
+.SGallery ol{
+    list-style:none; 
+    list-style-type: none;
+}
+.SGallery ul {
+
+}
+.SGallery li {
+
+}
+
+
+
+/*
+***************** Pagination Style *****************
+*/
+.SGallery.SGallery-FancyBox .SGalleryPagination {
+    text-align:center;
+    margin-top:10px;
+    width:98%;
+    float:left;
+    clear:both;
+}
+.SGallery.SGallery-FancyBox .SGalleryPagination .ButtonWrapper {
+    height:30px;
+    padding-top:10px;
+    clear:both;
+}
+.SGallery.SGallery-FancyBox .SGalleryPagination a span {
+    position:relative;
+    border:solid 1px #00F;
+    padding: 4px 5px;
+}
+.SGallery.SGallery-FancyBox .SGalleryPagination span {
+    position:relative;
+    border:solid 1px #ccc;
+    padding: 4px 5px;
+}		
+.SGallery.SGallery-FancyBox .SGalleryPagination a {
+    text-decoration:none;
+
+}
+.SGallery.SGallery-FancyBox .SGalleryPagination span.CurrentBool {
+    border-color:#f00;
+
+}
+

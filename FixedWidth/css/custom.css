@@ -1,0 +1,40 @@
+/*
+* http://lesscss.org/
+* http://lesselements.com/
+*/
+
+body{
+    background: #CCCCCC url(../images/bg2.jpg) top center repeat-x ;
+}
+/*Pagination Style
+***********************************/
+.SGallery .SGalleryPagination {
+    text-align:center;
+    margin-top:10px;
+    width:98%;
+    float:left;
+    clear:both;
+}
+.SGallery .SGalleryPagination .ButtonWrapper {
+    height:30px;
+    padding-top:10px;
+    clear:both;
+}
+.SGallery .SGalleryPagination a span {
+    position:relative;
+    border:solid 1px #00F;
+    padding: 4px 5px;
+}
+.SGallery .SGalleryPagination span {
+    position:relative;
+    border:solid 1px #ccc;
+    padding: 4px 5px;
+}		
+.SGallery .SGalleryPagination a {
+    text-decoration:none;
+
+}
+.SGallery .SGalleryPagination span.CurrentBool {
+    border-color:#f00;
+
+}

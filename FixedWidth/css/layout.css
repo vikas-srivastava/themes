@@ -1,0 +1,679 @@
+@import "elements.less";
+/** 
+ * SilverStripe Black Candy Theme
+ * http://www.silverstripe.com
+ *
+ * Main Layout File
+*/
+
+/* Misc Styles and defaults 
+-------------------------------------------- */
+/* Main colors dark -> light */
+/*@PrimeColor1:#00AAFF;
+@PrimeColor2:#4DC3FF;
+@PrimeColor3:#80D4FF;
+.defaultGradient{
+    .gradient(@PrimeColor2,@PrimeColor2,@PrimeColor3);
+} */
+
+html {
+    background-color: #ccc;
+}
+
+body {
+    font-size: 14px; 
+    margin-bottom: 40px;
+    /*    text-align: left;*/
+    font:13px/1.5em "Liberation sans",Arial,Helvetica,sans-serif;
+    line-height:1.2em;
+    color: #666666;
+    background-color: #ffc77a;
+ 
+}
+
+a { 
+    color:#c20202; 
+    text-decoration:none;
+}
+a:hover { 
+        text-decoration:underline;}
+
+
+/*
+* --------------------------------------------
+* Header
+* --------------------------------------------
+*  */
+#HeaderWrapper {
+
+}
+#Header { 
+
+}
+#Header h1 { 
+
+}
+#Header p {
+
+}
+
+#Header .Logo{
+
+}
+#Header #HeaderCycleWrapper {
+    padding: 10px;
+    border: #3c3c3c solid 2px;
+    background-color: #222222;
+
+}
+#Header #HeaderCycle{
+
+
+}
+
+/*
+* --------------------------------------------
+* Body
+* --------------------------------------------
+*  */
+#BodyWrapper{
+    background-color: #f2f2f2;
+}
+#BodyBG{
+    width: 1000px;
+    border: 0px solid  #ff6633;
+    border-width: 0px  1px;
+
+    margin: 0 auto;
+    background-color: #fff;
+}
+#Body{
+
+}
+/*
+* --------------------------------------------
+* Main Left Right 
+* --------------------------------------------
+*  */
+#MainWrapper{
+}
+#MainBG{
+
+}
+#Main{
+
+}
+
+
+#LeftWrapper{
+}
+#LeftBG{
+
+}
+#Left{
+
+}
+
+
+#RightWrapper{
+}
+#RightBG{
+
+}
+#Right{
+
+}
+/*
+* --------------------------------------------
+* Sidebar
+* --------------------------------------------
+*  */
+#Sidebarwrapper{
+    
+}
+#SidebarBG{
+    
+}
+#Sidebar{
+    
+}
+
+/*
+* --------------------------------------------
+* Footer
+* --------------------------------------------
+*  */
+
+#FooterWrapper {
+    border: 0px solid #f00;
+    border-top-width: 1px;
+    border-bottom-width: 3px;
+    
+}
+#Footer { 
+
+}
+#Footer .footerTop {
+
+}
+#Footer p { 
+
+}
+#Footer a { 
+    text-decoration: underline;
+
+}
+#Footer a:hover {
+
+}
+
+
+/* NAVIGATION - With Dropdwon CSS3 !
+----------------------------------------- */
+#NavigationWrapper {
+
+
+}
+#Navigation {
+    background: url(../images/NavbarBG.png) center repeat-x ;
+}
+
+
+#Navigation #navbarWrapper {
+
+}
+#Navigation #navbar {
+    margin: 0;
+    height: 40px; 
+    position: relative;
+    padding: 5px 10px;
+}
+#Navigation #navbar li {
+    list-style: none;
+    float: left; 
+    margin:0px;
+
+    position: relative;
+}
+#Navigation #navbar > li  {
+    margin-top: 4px;
+}
+#Navigation #navbar li a {
+    display: block;
+    padding: 0px 10px;
+    /*    background-color: #5e8ce9;*/
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+
+#Navigation #navbar li ul {
+    display: none; 
+    width: 180px; /* Width to help Opera out */
+    background-color: #F51D24;
+}
+
+
+
+#Navigation #navbar li:hover > ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0; 
+    top: 0%;
+    left: 100%;
+}
+
+#Navigation #navbar > li:hover > ul {
+    padding: 15px 4px;
+}
+
+#Navigation #navbar > li:hover > ul {
+    left: 0%;
+    top: 100%;
+}
+
+
+
+
+#Navigation #navbar li:hover li, 
+#Navigation #navbar li.hover li {
+    float: none; 
+}
+#Navigation #navbar li:hover li a, 
+#Navigation #navbar li.hover li a {
+    background-color: #AB1C20;
+    border-bottom: #650000 1px solid ;
+    color: #fff; 
+}
+
+#Navigation #navbar li a.HasChildren{
+    background: url("../images/SubMenuArrow.png") right center no-repeat;
+    padding-right: 30px;
+}
+#Navigation #navbar li a.current , 
+#Navigation #navbar li a.section , 
+#Navigation #navbar li li a.current , 
+#Navigation #navbar li li a.section, 
+#Navigation #navbar li a:hover, 
+#Navigation #navbar li li a:hover {
+    /*    background-color: #E8F6FF;*/
+    text-decoration: underline;
+}
+
+
+
+
+/* BREADCRUMBS
+-------------------------------------------- */
+#Breadcrumbs { 
+    color: #B7C0C5;
+    text-align: left;
+    padding: 2px;
+}
+#Breadcrumbs p {
+    margin: 0;
+    /*    padding: 0 15px;*/
+}
+
+
+
+/*
+* --------------------------------------------
+* Pagination
+* --------------------------------------------
+*  */
+
+.PaginationWrapper{
+
+}
+.PaginationWrapper .Pagination{
+    text-align: center;
+}
+.PaginationWrapper .Pagination span,
+.PaginationWrapper .Pagination a{
+    padding: 5px 10px;
+}
+
+/* COMMENTS
+---------------------------------------- */
+#CommentHolder ul {
+    list-style: none;
+    margin: 20px 0;
+}
+#PageComments li {
+    margin: 5px 0;
+    padding: 1px;
+    width: 88%;
+}
+#PageComments li.odd {
+    background: #E8F6FF url(../images/commentBg.png) no-repeat 1% 10%;
+    padding-left: 40px;
+    padding-right: 10px;
+    border-bottom: 2px solid #BCE4FE;
+}
+#PageComments li.even {
+    background: #fff url(../images/commentBgAlt.png) no-repeat 99% 10%;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+#PageComments li.odd p.info {
+    color: #3AA0C3;
+}
+
+.actionLinks li {
+    display: inline;
+    border-right: 1px solid #ddd;
+}
+.actionLinks li a {
+    padding-right: 3px;
+    font-size: 10px;
+}
+.actionLinks li.last {
+    border-right: none;
+}
+
+.commentrss {
+    background: transparent url(../images/feed-icon-14x14.png) no-repeat;
+    padding-left: 20px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+#PageCommentsPagination p {
+    text-align: center;
+    font-size: 1.2em;
+}
+#PageComments p {
+    font-size: 1em;
+}
+#PageComments p.info {
+    color: #999;
+    margin: 0px;
+    padding: 0;
+    line-height: 1em;
+    font-size: 0.9em;
+}
+
+/* SEARCH RESULTS STYLES
+------------------------------------------------ */
+ul#SearchResults {
+    margin: 10px 0;
+}
+ul#SearchResults li {
+    list-style: none;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* SEARCH FORM 
+-----------------------------------------------*/
+html #SearchForm_SearchForm {
+    float: right;
+    width: 240px;
+    margin: 5px;
+}
+html #SearchForm_SearchForm .middleColumn {
+    float: left;
+    width: 164px;
+    margin: 0 5px 0 0;
+    padding: 2px;
+    background-color: #51a9df;
+
+}
+html #SearchForm_SearchForm .middleColumn input.text {
+    width: 160px;
+    border: none;
+    color: #666;
+}
+html #SearchForm_SearchForm #SearchForm_SearchForm_action_results {
+    float: left;
+    margin-top: 2px;
+}
+
+/* MESSAGEBOXS
+--------------------------------------------- */
+.message {
+    margin: 15px;
+    padding: 5px;
+    width: 92%;
+    color: #979908;
+    border: 4px solid #F7F8B4;
+    background: #FFFFEA;
+}
+span.middleColumn .message {
+    margin: 4px 0 0 3px;
+}
+.required {
+    margin: 4px 0 0 3px;
+    padding: 5px;
+    width: 92%;
+    color: #DC1313;
+    border: 4px solid #FF7373;
+    background: #FED0D0;
+}
+
+
+
+p#Remember label {
+    margin: -24px 0 0 20px;
+    text-align: left;
+}
+.entry {
+    border-bottom: 1px solid #eee;
+}
+
+.typography #Content p.authorDate {
+    color: #444;
+    margin-top: -15px;
+}
+/* UNSUBSCRIBE NEWSLETTER
+------------------------------------------------ */
+#Unsubscribe_MailingListForm_MailingListForm{
+    min-height:100px;
+}
+
+#Unsubscribe_MailingListForm_MailingListForm p{
+    margin:0 !important;
+    padding:10px;
+}
+#Unsubscribe_MailingListForm_MailingListForm p label{
+    display: inline;
+}
+#Unsubscribe_MailingListForm_MailingListForm label{
+    margin:0;
+}
+
+
+
+/*
+* --------------------------------------------
+* ContactInfoRows
+* --------------------------------------------
+*  */
+.Sidebar .ContactInfo{
+
+}
+
+.Sidebar .ContactInfo strong{
+    color: #F51D24;
+    font-weight: bold;
+}
+
+
+/*
+* --------------------------------------------
+* Globals
+* --------------------------------------------
+*  */
+
+
+.BorderBottom{
+    border-top: 1px solid #D3D3CF;
+}
+
+.CenterDiv {
+    margin: 0px auto;
+
+}
+
+.WhiteBackground {
+    background-color: #fff;
+
+}
+
+
+.title,
+.all-four-rounded-corners {
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;	
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.buttonWrapper {
+    margin: 10px 0 5px 0;
+}
+.buttonWrapper  .button{
+    background: url(../images/readmore.png) center ;
+    width: 98px;
+    height: 36px;
+    text-align: center;
+
+
+}
+.buttonWrapper  .button a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding-top: 8px;
+}       
+
+div.title {
+    /*    padding: 10px;  */
+    /*    background-color: #c20202;*/
+    margin-bottom: 10px;
+}
+
+div.title h2 ,
+div.title h3 ,
+div.title a:Hover ,
+div.title a {
+    color: #fff;
+}
+div.title a:Hover{
+    text-decoration: underline;
+}
+
+
+
+/*
+* --------------------------------------------
+* SocialButton
+* --------------------------------------------
+*  */
+#Navigation #navbar li.SocialButton {
+    float: right;
+    position: relative;
+}
+#Navigation #navbar li.SocialButton img {
+    padding: 0px;
+    border: 0px;
+    background: transparent none;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+
+/*
+* --------------------------------------------
+* hacks
+* --------------------------------------------
+*  */
+
+
+form#Form_Form div.Actions{
+    margin-top: 10px;
+}
+form#Form_Form div.Actions input.action{
+    background: #e9e9e9;
+    padding: 5px;
+
+    webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;	
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    /*    -moz-box-shadow: -2px -2px 2px 2px #888;
+        -webkit-box-shadow: -2px -2px 2px 2px #888;
+        box-shadow: -2px -2px 2px 2px #888;*/
+
+    border: 1px solid #ccc;
+}
+
+
+
+/*
+* --------------------------------------------
+* Gallery
+* --------------------------------------------
+*  */
+
+
+
+.Gallery {
+    position:  relative;
+    float: left;
+}
+.Gallery .ImageWrapper{
+    position:  relative;
+    float: left;
+}
+.Gallery .simple_overlay {
+
+    /* must be initially hidden */
+    display:none;
+
+    /* place overlay on top of other elements */
+    z-index:10000;
+
+    /* styling */
+    background-color:#fff;
+
+    width:800px;
+    padding: 10px;
+    min-height:200px;
+    border:1px solid #666;
+    margin-left: auto;
+    margin-right: auto;
+   
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+
+/* close button positioned on upper right corner */
+.Gallery .simple_overlay .close {
+    background-image:url(/media/img/overlay/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+/* styling for elements inside overlay */
+.Gallery .simple_overlay  > .details {
+    position:absolute;
+    padding: 10px 0px;
+    top:15px;
+    font-size:11px;
+    color:#fff;
+    width:100%;
+    background-color: #000;
+    opacity:0.5;
+}
+.Gallery .simple_overlay  > .details  p{
+margin-left: 20px;
+}
+
+.Gallery .simple_overlay  > .details h3 {
+    color:#aba;
+    font-size:15px;
+}
+
+/*
+* --------------------------------------------
+* Catalog
+* --------------------------------------------
+*  */
+.Catalog .OldPrice{
+    color: #c20202;
+    text-decoration: line-through;
+}
+.Catalog .Image{
+    position: relative;
+}
+.Catalog .SaleBanner{
+    position: absolute;
+    bottom: 10px;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Catalog .SaleBanner .SaleImage{
+    margin: 0 auto;
+    background: #ccc url('') bottom center no-repeat;
+    width: 80%;
+}

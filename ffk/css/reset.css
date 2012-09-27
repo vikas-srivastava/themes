@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+* --------------------------------------------
+* Spaces
+* --------------------------------------------
+*  */
+.clr,.clear,.Clear,.CLR{
+    clear: both;
+}
+
+.space-5{
+    margin-bottom: 5px;
+    height: 1px;
+}
+.space-10{
+    margin-bottom: 10px;
+    height: 1px;
+}
+.space-15 {
+    margin-bottom: 15px;
+    height: 1px;
+}
+.space,
+.space-20 {
+    margin-bottom: 20px;
+    height: 1px;
+}
+.space-30 {
+    margin-bottom: 20px;
+    height: 1px;
+}
+.space-40 {
+    margin-bottom: 20px;
+    height: 1px;
+}
+
+
+.space-10.line,
+.space-15.line,
+.space-20.line,
+.space-30.line,
+.space-40.line,
+.space.line{
+    margin-top: 10px;
+}
+
+/*
+* --------------------------------------------
+* Lines
+* --------------------------------------------
+*  */
+
+.line {
+    border-bottom: 1px solid #ccc;
+}
+.line-l {
+    border-left: 1px solid #ccc;
+}
+.line-r {
+    border-right: 1px solid #ccc;
+}
+.line-lr {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*
+* --------------------------------------------
+* Floats
+* --------------------------------------------
+*  */
+/* floats , Padding & positioning */
+div.float-left{
+    float: left;
+    /*    margin: 0px;*/
+}
+div.float-right{
+    float: right;
+    /*    margin: 0px;*/
+}
+
+/*
+* --------------------------------------------
+* Padding
+* --------------------------------------------
+*  */
+div.padding-lr-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.padding-l-20{
+    padding-left: 20px;
+}
+div.padding-r-20{
+    padding-right: 20px;
+}
+div.padding-t-20{
+    padding-top: 20px;
+}
+div.padding-b-20{
+    padding-bottom: 20px;
+}
+/*
+* --------------------------------------------
+* Margin
+* --------------------------------------------
+*  */
+div.margin-lr-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.margin-l-20{
+    padding-left: 20px;
+}
+div.margin-r-20{
+    padding-right: 20px;
+}
+
+
+/*
+* --------------------------------------------
+* Headings
+* --------------------------------------------
+*  */
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 175%;
+}
+h3{
+    font-size: 150%;
+}
+h4{
+    font-size: 125%;
+}
+
+p.center {
+    text-align: center;
+}
+
+
+
+.dropshadow{
+
+}
+div{
+
+}
+div.center{
+    margin: 0 auto;
+}
+p{
+    margin-bottom: 10px;
+}
+.Bold,
+.bold{
+    font-weight: bold;
+}
+
+
+img.mg,
+img.image,
+img.Image,
+a img,
+.Frame,
+.frame{
+    padding: 2px;
+    background: #333333;
+    border: 1px #fff solid;
+}
+
+
+
